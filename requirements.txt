@@ -1,10 +1,10 @@
 # Requirements for running django-fernet-fields tests
 
-Django>=4.0<=4.2
+Django>=4.0,<4.3
 
-cryptography>=41.0.3
+cryptography~=41.0
 
-tox>=2.0.1
+tox~=2.0
 pytest-django~=4.5
 pytest~=7.4
 coverage~=7.2
